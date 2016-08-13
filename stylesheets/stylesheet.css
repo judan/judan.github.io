@@ -108,7 +108,6 @@ header img {
 .nav-links a:hover {
   color: #FFA500;
   text-decoration: underline;
-
 }
 
 /* Main Content */
@@ -123,6 +122,8 @@ header img {
   width: 100%;
   -webkit-font-smoothing: antialiased;
 }
+
+
 
 section img {
   max-width: 100%
@@ -151,11 +152,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #main_content h4 {
-  font-size: 14px;
+  font-size: 16px;
+  color: #BF5FFF;
 }
 
 #main_content h5 {
   font-size: 12px;
+  color: #FFFF66;
   text-transform: uppercase;
   margin: 0 0 5px 0;
 }
@@ -278,6 +281,7 @@ a {
 
 a:hover {
   text-decoration: underline;
+  color: #FFA500;
 }
 
 /* Clearfix */
