@@ -123,7 +123,11 @@ header img {
   -webkit-font-smoothing: antialiased;
 }
 
-
+.block {
+  padding-top: 1em;
+  padding-bottom: 1em;
+  border-bottom: 1px dotted #b5e853;;
+}
 
 section img {
   max-width: 100%
