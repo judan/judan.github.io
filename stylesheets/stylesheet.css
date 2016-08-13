@@ -29,6 +29,7 @@ h1, h2, h3, h4, h5, h6 {
 
 li {
   line-height: 1.4 ;
+  font-style: italic;
 }
 
 /* Header, <header> */
@@ -241,6 +242,11 @@ hr {
   border: 0;
   border-bottom: 1px dashed #b5e853;
   color: #b5e853;
+}
+
+.copyright {
+  padding: 2em;
+  font-size: 10pt;
 }
 
 /* Buttons */
