@@ -130,12 +130,26 @@ header img {
   border-bottom: 1px dotted #b5e853;;
 }
 
-.thumbnail {
+.thumb {
   height: auto;
   width: auto;
   max-width: 400px;
   max-height: 200px;
 }
+
+.screen {
+  text-align: center;
+  display: none;
+}
+
+.project i {
+  padding-top: 2em;
+}
+
+/*.screen img {
+  width: 100%;
+  height: 100%;
+}*/
 
 section img {
   max-width: 100%
@@ -166,7 +180,8 @@ h1, h2, h3, h4, h5, h6 {
 #main_content h4 {
   font-size: 16px;
   color: #BF5FFF;
-  padding-top: 1em;
+  padding-top: 2em;
+  display: inline;
 }
 
 #main_content h5 {
@@ -190,6 +205,7 @@ dt {
 
 ul li {
   list-style: none;
+  padding-bottom: 1em;
 }
 
 ul li:before {
@@ -316,3 +332,4 @@ a:hover {
 .cf {
   zoom:1;
 }
+

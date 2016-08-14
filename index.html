@@ -9,11 +9,15 @@
     <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
 
+    <script   src="https://code.jquery.com/jquery-3.1.0.min.js"   integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s="   crossorigin="anonymous"></script>
+
+
     <title>Jen Udan&#39;s Projects by judan</title>
   </head>
 
   <body>
 
+<!-- HEADER -->
     <header>
       <div class="container">
         <h1>Jen Udan&#39;s Projects</h1>
@@ -31,6 +35,7 @@
 
     <div class="content-wrapper">
 
+<!-- NAV BAR -->
       <div class="nav-links">
         <a href="#about-me">About</a> 
         <a href="#projects">Projects</a>
@@ -39,9 +44,11 @@
         <a href="./images/Jen_Udan_Resume_FEdev.pdf">Résumé</a>
       </div>
 
+<!-- MAIN CONTENT SECTION  -->
       <div class="container">
         <section id="main_content">
 
+           <!--  ABOUT SECTION -->
             <div class="block">
               <h3>
               <a name="about-me" class="anchor" href="#welcome-to-github-pages" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>About Me</h3>
@@ -52,57 +59,126 @@
                 <ul>
                   <li>Graduated from The University of Texas at Austin with a B.A. in English and philosophy.</li>
                   <li>Worked as a writing consultant and copywriter.</li>
-                  <li>Experienced with all facets of digital marketing, including content, SEO/SEM, ads and social media.</li>
-                  <li>Immersive coding bootcamp survivor skilled in HTML, CSS, JS, frameworks/libraries, Node and Agile software development.</li>
+                  <li>Experienced in all facets of digital marketing, including content, SEO/SEM, ads and social media.</li>
+                  <li>Survived immersive coding bootcamp; leveled up skills in HTML, CSS, JS, frameworks/libraries, Node and Agile software development.</li>
                   <li>Passionate about using technology to solve pressing problems and drive change.</li>
             </div>
 
+            <!-- PROJECTS SECTION -->
             <div class="block">
               <h3>
               <a name="projects" class="anchor" href="#designer-templates" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Notable Projects</h3>
 
+                <!-- LILITH APP -->
                 <div id="lilith-app" class="project">
+                  <i class="fa fa-folder-open" aria-hidden="true"></i>
                   <h4> Lilith Fund App </h4>
-                  <p> For my final project at The Iron Yard, I created an app for a local nonprofit called The Lilith Fund that helps admins and volunteers run hotline shifts, as well as store and access caller information.</p> 
+                  <p> For my final project at The Iron Yard, I created an app for a local nonprofit called The Lilith Fund that helps admins and volunteers run hotline shifts, as well as store and access caller information ideally on a secure server. Admins and volunteers have unique logins and are routed to either an Admin Dashboard or Volunteer Dashboard.</p> 
+                  <p>Admins are able to save caller information to the database, oversee a shift calendar, and manage resources. Volunteers are able to sign up for shifts, manage their current shift, and save shift details to the database.</p> 
                   <p><h5>Build Summary</h5>
-                  <ul><li>Javascript, Backbone, React, CSS, Node and Express.</li></ul></p>
+                  <ul><li>Javascript, Backbone, React, CSS, Node and Express</li></ul></p>
                   <p><a href="https://lilith-app.herokuapp.com/">View live.</a> <a href="https://github.com/judan/lilith-app">View code.</a></p>
-      
-                  <img class="thumbnail" src="./images/lilith-app-homepage.png"/>
-                  <img class="thumbnail" src="./images/lilith-app-admin-calendar.png"/>
-                  <img class="thumbnail" src="./images/lilith-app-admin-call-log.png"/>
-                  <img class="thumbnail" src="./images/lilith-app-admin-resources.png"/>
-                  <img class="thumbnail" src="./images/lilith-app-volunteer-shift.png"/>
-                  <img class="thumbnail" src="./images/lilith-app-volunteer-signup.png"/>
+
+                  <!-- THUMBNAILS / SCREENSHOTS -->
+                  <img class="thumb thumb-1" src="./images/lilith-app-homepage.png"/>
+                  <div class="screen screen-1">
+                    <img src="./images/lilith-app-homepage.png"/>
+                  </div>
+
+                  <img class="thumb thumb-2" src="./images/lilith-app-admin-calendar.png"/>
+                  <div class="screen screen-2">
+                    <img src="./images/lilith-app-admin-calendar.png"/>
+                  </div>
+
+                  <img class="thumb thumb-3" src="./images/lilith-app-admin-call-log.png"/>
+                  <div class="screen screen-3">
+                    <img src="./images/lilith-app-admin-call-log.png"/>
+                  </div>
+
+                  <img class="thumb thumb-4" src="./images/lilith-app-admin-resources.png"/>
+                  <div class="screen screen-4">
+                    <img src="./images/lilith-app-admin-resources.png"/>
+                  </div>
+
+                  <img class="thumb thumb-5" src="./images/lilith-app-volunteer-shift.png"/>
+                  <div class="screen screen-5">
+                    <img src="./images/lilith-app-volunteer-shift.png"/>
+                  </div>
+
+                  <img class="thumb thumb-6" src="./images/lilith-app-volunteer-signup.png"/>
+                  <div class="screen screen-6">
+                    <img src="./images/lilith-app-volunteer-signup.png"/>
+                  </div>
                 </div>
 
+                <!-- POINTER APP -->
                 <div id="pointer-app" class="project">
+                  <i class="fa fa-folder-open" aria-hidden="true"></i>
                   <h4> Pointer App </h4>
-                  <p> I worked with my front-end classmates and our instructors on an app for a local client that helps children learn to read. The app highlights words as a reader moves through the story, allowing children to easily visualize every word spoken aloud.
+                  <p> I worked with my front-end classmates and our instructors on an app for a local client that helps children learn to read. Our client, Ruben, was inspired to create this app after teaching his own daughter to read and wanting a way to connect the audible and textual elements of a story.</p>
+                  <p>The app highlights words as a reader moves through the story, allowing children to easily visualize every word spoken aloud. Parents or teachers are able to select a story and the child who is reading it. The app tracks your progress on a story and alerts you when you've finished it.</p>
                   <p><h5>Build Summary</h5> 
                   <ul><li>Javascript, Backbone, React, CSS, Node and Express</li></ul></p> 
                   <p><a href="http://pointerapp.herokuapp.com/">View live.</a> <a href="https://github.com/alarner/pointer-app">View code.</a></p>
 
-                  <img class="thumbnail" src="./images/pointer-app-homepage.png"/>
-                  <img class="thumbnail" src="./images/pointer-app-stories.png"/>
-                  <img class="thumbnail" src="./images/pointer-app-pick-student.png"/>
-                  <img class="thumbnail" src="./images/pointer-app-story-start.png"/>
-                  <img class="thumbnail" src="./images/pointer-app-story-middle.png"/>
-                  <img class="thumbnail" src="./images/pointer-app-story-finish.png"/>
+                  <!-- THUMBNAILS / SCREENSHOTS -->
+                  <img class="thumb thumb-7" src="./images/pointer-app-homepage.png"/>
+                  <div class="screen screen-7">
+                    <img src="./images/pointer-app-homepage.png"/>
+                  </div>
+
+                  <img class="thumb thumb-8" src="./images/pointer-app-stories.png"/>
+                  <div class="screen screen-8">
+                    <img src="./images/pointer-app-stories.png"/>
+                  </div>
+
+                  <img class="thumb thumb-9" src="./images/pointer-app-pick-student.png"/>
+                  <div class="screen screen-9">
+                    <img src="./images/pointer-app-pick-student.png"/>
+                  </div>
+
+                  <img class="thumb thumb-10" src="./images/pointer-app-story-start.png"/>
+                  <div class="screen screen-10">
+                    <img src="./images/pointer-app-story-start.png"/>
+                  </div> 
+
+                  <img class="thumb thumb-11" src="./images/pointer-app-story-middle.png"/>
+                  <div class="screen screen-11">
+                    <img src="./images/pointer-app-story-middle.png"/>
+                  </div>
+
+                  <img class="thumb thumb-12" src="./images/pointer-app-story-finish.png"/>
+                  <div class="screen screen-12">
+                    <img src="./images/pointer-app-story-finish.png"/>
+                  </div>
                 </div>
 
-                <div id="best-of" class="project">
-                  <h4> Best Feed </h4>
-                  <p> I worked with my front-end, back-end and design teammates on an app that lets users submit and vote for their favorite 'Best Of' lists from around the Web. This project is a continued work in progress, and our group is currently meeting for continual improvements.</p> 
+                <!-- BESTFEED -->
+                <div id="bestfeed" class="project">
+                  
+                  <i class="fa fa-folder-open" aria-hidden="true"></i>
+                  <h4> BestFeed </h4>
+                  <p> BestFeed is a (very meta) collection of the best 'Best Of' lists from around the Web. I worked with my front-end, back-end and design teammates on an app that lets users submit and vote for their favorite 'Best Of' lists, including everything from 'The Greatest Books' to 'The Top 10 David Letterman Top 10 Lists'.</p> 
+                  <p>This project is a work in progress, and our group is currently meeting for continual improvements.</p> 
                   <p><h5>Build Summary</h5>
-                  <ul><li>Javascript, jQuery, Backbone, HTML, CSS and Ruby on Rails.</li></ul></p>
+                  <ul><li>Javascript, jQuery, Backbone, HTML, CSS and Ruby on Rails</li></ul></p>
                   <p><a href="https://github.com/judan/best-of-list-team-wolfpack">View code.</a></p>
 
-                  <img class="thumbnail" src="./images/bestfeed-homepage.png"/>
-                  <img class="thumbnail" src="./images/bestfeed-submission.png"/>
+                  <!-- THUMBNAILS / SCREENSHOTS -->
+                  <img class="thumb thumb-13" src="./images/bestfeed-homepage.png"/>
+                  <div class="screen screen-13">
+                    <img src="./images/bestfeed-homepage.png"/>
+                  </div>
+
+                  <img class="thumb thumb-14" src="./images/bestfeed-submission.png"/>
+                  <div class="screen screen-14">
+                    <img src="./images/bestfeed-submission.png"/>
+                  </div>
+
                 </div>
               </div>
 
+            <!-- CONTACT SECTION -->
             <div class="block">
               <h3>
               <a name="contact" class="anchor" href="#designer-templates" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Contact</h3>
@@ -122,9 +198,11 @@
         </section>
       </div>
 
+<!-- COPYRIGHT -->
       <p class="copyright">Copyright &copy; 2016 Jen Udan. All rights reserved.<p>
 
     </div>
     
+  <script type="text/javascript" src="javascripts/main.js"></script>
   </body>
 </html>
